@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2626855440478621258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7796141382781598981}
+  - component: {fileID: 3179563144294296965}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7796141382781598981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626855440478621258}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.84327, y: -0, z: -0.84055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3179563144294296965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626855440478621258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4546772e9831641b7a1437a7d8d493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManagerDemo
+  inventory: {fileID: 0}
+  activeCar1: {fileID: 0}
+  activeCar2: {fileID: 0}
+  BlueColor: {fileID: 2100000, guid: 4fcd6c6c96330a341bbf0807ccb450bd, type: 2}
+  PurpleColor: {fileID: 2100000, guid: 53fc24f15e4fe4d4e823eccd0c2df220, type: 2}
+  RedColor: {fileID: 2100000, guid: d3fd00437261b0b42b73d60bfc4fe7f1, type: 2}
+  YellowColor: {fileID: 2100000, guid: fd140a6fda1498d458b3c04d8dae803f, type: 2}
+  activeSlot1: {fileID: 0}
+  activeSlot2: {fileID: 0}
+  numOfCars: 6
